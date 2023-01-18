@@ -3,7 +3,7 @@ layout: course-page
 title: Bueler's Math F253 Calculus III at UAF
 ---
 
-Welcome to the homepage of **Math F253 Calculus III**, Spring 2023, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
+Welcome to the public homepage of **Math F253 Calculus III**, Spring 2023, in the [Dept. of Mathematics and Statistics](http://www.uaf.edu/dms/) at the [University of Alaska Fairbanks](http://www.uaf.edu/).
 
 #### Instructor:  [Ed Bueler](http://bueler.github.io/)
 
