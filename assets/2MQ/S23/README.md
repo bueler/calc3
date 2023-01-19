@@ -2,9 +2,9 @@
 
 Three minute questions (2MQ) are a way to start class and get attendance.
 
-To build a 2MQ, create an inputable LaTeXed question in a file like `19jan.tex` and then build `template.pdf` from the command line:
+To build a 2MQ, create an input-able LaTeXed question in a file like `19jan.tex` and then build `template.pdf` from the command line:
 
-    $ export DM="19 Jan"; export FILE=19jan.tex; pdflatex template.tex
+    $ DM="19 Jan" FILE=19jan.tex pdflatex template.tex
 
 Through use of LaTeX tools the `DM` (date and month) and `FILE` environment variables will be used when compiling [`template.tex`](template.tex).  In particular, `FILE` will be inputed.
 
