@@ -2,7 +2,7 @@ semester: Spring 2023
 home: assets/homework/S23
 homework:
 - name: Homework 2.1
-  due: 11:59pm Fri 1/20
+  due: 11:59pm Sat 1/21
   sections:
   - section: 2.1
     problems: 4, 7, 9, 12, 14, 17, 26, 30, 32,
@@ -20,19 +20,19 @@ homework:
     problems: 126, 130, 132, 136, 140, 142, 146,
     cont: 148, 150, 152, 154, 168, 170, 172
 - name: Homework 2.4
-  due: 11:59pm Fri 1/27
+  due: 11:59pm Mon 1/30
   sections:
   - section: 2.4
     problems: 184, 188, 190, 195, 204, 205, 207,
     cont: 210, 212, 214, 219, 228, 235
 - name: Homework 2.5
-  due: 11:59pm Mon 1/30
+  due: 11:59pm Wed 2/1
   sections:
   - section: 2.5
     problems: 244, 248, 254, 256, 257, 259, 268,
     cont: 271, 274, 276, 280, 286, 288, 299
 - name: Homework 3.1
-  due: 11:59pm Wed 2/1
+  due: 11:59pm Sat 2/4
   sections:
   - section: 3.1
     problems: 2, 3, 6, 9, 13, 14, 16, 23, 29, 37
