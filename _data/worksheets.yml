@@ -1,6 +1,6 @@
 semester: Spring 2023
 home: assets/worksheets/S23
 worksheets:
-#- name: Worksheet for Section 2.4
-#  blank: 2p4.pdf
-#  solutions: 2p4solns.pdf
+- name: Worksheet for Section 2.4
+  blank: 2p4.pdf
+  #solutions: 2p4solns.pdf
