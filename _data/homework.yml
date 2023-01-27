@@ -32,50 +32,50 @@ homework:
     problems: 244, 248, 254, 256, 257, 259, 268,
     cont: 271, 274, 276, 280, 286, 288, 299
 - name: Homework 3.1
-  due: 11:59pm Sat 2/4
+  due: 11:59pm Mon 2/6
   sections:
   - section: 3.1
     problems: 2, 3, 6, 9, 13, 14, 16, 23, 29, 37
 - name: Homework 3.2
-  due: 11:59pm Mon 2/6
+  due: 11:59pm Wed 2/8
   sections:
   - section: 3.2
     problems: 43, 47, 53, 54, 63, 64, 67, 68, 70,
     cont: 71, 72, 77, 81, 86, 95, 96, 101
 - name: Homework 3.3
-  due: 11:59pm Wed 2/8
+  due: 11:59pm Mon 2/13
   sections:
   - section: 3.3
     problems: 102, 104, 108, 110, 111, 115, 127,
     cont: 128, 130, 134, 138
 - name: Homework 4.1
-  due: 11:59pm Mon 2/13
+  due: 11:59pm Wed 2/15
   sections:
   - section: 4.1
     problems: 4, 6, 7, 14, 17, 21, 26, 35,
     cont: 39, 42, 44, 49, 55, 57
 - name: Homework 4.2
-  due: 11:59pm Wed 2/15
+  due: 11:59pm Mon 2/20
   sections:
   - section: 4.2
     problems: 65, 70, 72, 77, 82, 83, 84, 88,
     cont: 93, 102, 109, 110
 - name: Homework 4.3
-  due: 11:59pm Mon 2/20
+  due: 11:59pm Wed 2/22
   sections:
   - section: 4.3
     problems: 113, 118, 119, 121, 125, 127, 128,
     cont: 132, 133, 134, 137, 138, 139, 145,
     contcont: 149, 151, 155, 156, 158
 - name: Homework 4.4
-  due: 11:59pm Wed 2/22
+  due: 11:59pm Mon 2/27
   sections:
   - section: 4.4
     problems: 170, 171, 173, 176, 179, 182, 183,
     cont: 186, 192, 196, 198, 200, 203, 209,
     contcont: 212
 - name: Homework 4.5
-  due: 11:59pm Mon 2/27
+  due: 11:59pm Wed 3/1
   sections:
   - section: 4.5
     problems: 215, 216, 219, 223, 225, 231, 232,
