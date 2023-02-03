@@ -8,19 +8,21 @@ quizzes:
   solutions: quiz1solns.pdf
 - name: Quiz 2
   date: 2 February
-  sections: 2.4, 2.5, 3.1
+  sections: 2.4, 2.5
+  blank: quiz2.pdf
+  solutions: quiz2solns.pdf
 - name: Quiz 3
   date: 9 February
-  sections: 3.2, 3.3
+  sections: 3.1, 3.2
 - name: Quiz 4
   date: 16 February
-  sections: 4.1, 4.2
+  sections: 3.3, 4.1
 - name: Quiz 5
   date: 2 March
-  sections: 4.5, 4.6
+  sections: 4.4, 4.5
 - name: Quiz 6
   date: 9 March
-  sections: 4.7, 5.1
+  sections: 4.6, 4.7, 5.1
 - name: Quiz 7
   date: 23 March
   sections: 5.2, 5.3
