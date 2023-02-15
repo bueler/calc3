@@ -71,15 +71,14 @@ homework:
   due: 11:59pm Mon 2/27
   sections:
   - section: 4.4
-    problems: 170, 171, 173, 176, 179, 182, 183,
-    cont: 186, 192, 196, 198, 200, 203, 209,
-    contcont: 212
+    problems: 170, 171, 173, 176, 182, 186, 196,
+    cont: 198, 203, 209
 - name: Homework 4.5
   due: 11:59pm Wed 3/1
   sections:
   - section: 4.5
-    problems: 215, 216, 219, 223, 225, 231, 232,
-    cont: 240, 245, 255, 256, 259
+    problems: 215, 216, 219, 225, 231, 240, 245,
+    cont: 255, 259
 - name: Homework X
   due: 11:59pm Y
   sections:
