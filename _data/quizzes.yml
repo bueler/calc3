@@ -19,6 +19,8 @@ quizzes:
 - name: Quiz 4
   date: 16 February
   sections: 3.3, 4.1
+  blank: quiz4.pdf
+  solutions: quiz4solns.pdf
 - name: Quiz 5
   date: 2 March
   sections: 4.4, 4.5
