@@ -7,3 +7,6 @@ worksheets:
 - name: curvature illustration in Section 3.3
   file: cubiccurvature.m
   image: cubiccurvature.png
+- name: Worksheet for Section 4.2
+  blank: 4p2.pdf
+  #solutions: 4p2solns.pdf
