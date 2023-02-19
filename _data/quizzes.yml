@@ -33,3 +33,12 @@ quizzes:
 - name: Quiz 8
   date: 30 March
   sections: 5.4, 2.7, 5.5
+- name: Quiz 9
+  date: 13 April
+  sections: 6.3, 6.4
+- name: Quiz 10
+  date: 20 April
+  sections: 6.5, 6.6
+- name: Quiz 11
+  date: 27 April
+  sections: 6.7, 6.8
