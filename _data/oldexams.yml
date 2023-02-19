@@ -1,0 +1,22 @@
+home: assets/exams/old
+exams:
+- name: Midterm Exam 1
+  date: Fall 2022
+  blank: mid1F22.pdf
+  solutions: mid1F22solns.pdf
+- name: Midterm Exam 1
+  date: Spring 2022
+  blank: mid1S22.pdf
+  solutions: mid1S22solns.pdf
+- name: Midterm Exam 2
+  date: Fall 2022
+  blank: mid2F22.pdf
+  solutions: mid2F22solns.pdf
+- name: Midterm Exam 2
+  date: Spring 2022
+  blank: mid2S22.pdf
+  solutions: mid2S22solns.pdf
+- name: Final Exam 
+  date: Fall 2021
+  blank: finalF21.pdf
+  solutions: finalF21solns.pdf

@@ -12,3 +12,14 @@ The table below gives the date and coverage for upcoming Exams.  Links to the Ex
 {% include exam_table.md  data=site.data.exams %}
 
 <div style="padding-bottom: 40px"></div>
+
+---
+### Exams from Previous Semesters
+
+These exams can be good study guides, but they covered various different ranges of sections, may have used different textbooks, and were written by various instructors.
+
+For additional old exams see [Prof. Maxwell's Past Exams page](https://damaxwell.github.io/math253/exams.html).
+
+{% include exam_table.md  data=site.data.oldexams %}
+
+<div style="padding-bottom: 20px"></div>
