@@ -26,13 +26,13 @@ quizzes:
   sections: 4.4, 4.5
 - name: Quiz 6
   date: 9 March
-  sections: 4.6, 4.7, 5.1
+  sections: 4.6, 4.7
 - name: Quiz 7
   date: 23 March
-  sections: 5.2, 5.3
+  sections: 5.1, 5.2
 - name: Quiz 8
   date: 30 March
-  sections: 5.4, 2.7, 5.5
+  sections: 5.3, 5.4, 2.7, 5.5
 - name: Quiz 9
   date: 13 April
   sections: 6.3, 6.4
