@@ -79,6 +79,18 @@ homework:
   - section: 4.5
     problems: 215, 216, 219, 225, 231, 240, 245,
     cont: 255, 259
+- name: Homework 4.6
+  due: 11:59pm Mon 3/6
+  sections:
+  - section: 4.6
+    problems: 260, 264, 268, 271, 273, 281, 284,
+    cont: 289, 292, 295, 300, 308
+- name: Homework 4.7
+  due: 11:59pm Wed 3/8
+  sections:
+  - section: 4.7
+    problems: 312, 315, 317, 319, 324, 333, 344,
+    cont: 348, 350, 352, 354
 - name: Homework X
   due: 11:59pm Y
   sections:
