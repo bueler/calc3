@@ -13,3 +13,6 @@ worksheets:
 - name: minimum illustration in Section 4.7
   mfile: contourfocus.m
   image: contourfocus.png
+- name: exercise 344 color figure (Sect 4.7)
+  mfile: exercise344.m
+  image: exercise344.png
