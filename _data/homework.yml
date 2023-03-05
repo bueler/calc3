@@ -91,6 +91,18 @@ homework:
   - section: 4.7
     problems: 312, 315, 317, 319, 320, 324, 333,
     cont: 344, 348, 350, 352
+- name: Homework 5.1
+  due: 11:59pm Mon 3/20
+  sections:
+  - section: 5.1
+    problems: 1, 4, 10, 11, 19, 21, 26,
+    cont: 29, 33, 36
+- name: Homework 5.2
+  due: 11:59pm Wed 3/22
+  sections:
+  - section: 5.2
+    problems: 61, 62, 67, 75, 81, 96,
+    cont: 100, 103
 - name: Homework X
   due: 11:59pm Y
   sections:
