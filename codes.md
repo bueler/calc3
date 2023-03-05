@@ -1,0 +1,22 @@
+---
+layout: course-page
+title: Matlab codes
+---
+
+## Matlab codes
+
+The page shows Matlab codes which I used in occasional in-class demonstrations, and some codes which I have written to help me with the homework.  They are listed below in chronological order.
+
+  * [cubiccurvature.m](assets/codes/S23/cubiccurvature.m), a curvature illustration in Section 3.3 -> [output image](assets/codes/S23/cubiccurvature.png)
+  * [contourfocus.m](assets/codes/S23/contourfocus.m), minimum illustration in Section 4.7 -> [output image](assets/codes/S23/contourfocus.png)
+  * [exercise344.m](assets/codes/S23/exercise344.m), color figure for #344 in Section 4.7 -> [output image](assets/codes/S23/exercise344.png)
+  * [exercise1.m](assets/codes/S23/exercise1.m), midpoint rule for double integral on #1 in Section 5.1
+
+### Getting started with Matlab
+
+You can use either [Matlab online](https://matlab.mathworks.com/) or [Octave online](https://octave-online.net/).  Also you can run [Matlab on your own machine](https://www.mathworks.com/products/matlab/student.html).  If you are new to Matlab, perhaps read these short PDFs from David Maxwell's courses:
+
+  * [MATLAB Basics](assets/codes/S23/MatlabBasics.pdf), which includes an intro to 2D plotting
+  * [MATLAB 3d Graphics](assets/codes/S23/Matlab3dPlot.pdf), including usage of `meshgrid`, `surf`, and `contour`
+
+<div style="padding-bottom: 40px"></div>

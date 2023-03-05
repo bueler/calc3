@@ -15,14 +15,9 @@
 			    <td><a href="{{ data.home }}/{{ ws.solutions }}">solutions</a></td>
 			</tr>
 			{% endif %}
-			{% if ws.mfile %}
-		  <tr>
-			    <td><a href="{{ data.home }}/{{ ws.mfile }}">Matlab code</a></td>
-			</tr>
-			{% endif %}
 			{% if ws.image %}
 		  <tr>
-			    <td><a href="{{ data.home }}/{{ ws.image }}">output image</a></td>
+			    <td><a href="{{ data.home }}/{{ ws.image }}">image</a></td>
 			</tr>
 			{% endif %}
 		</table>
