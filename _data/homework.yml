@@ -95,8 +95,8 @@ homework:
   due: 11:59pm Mon 3/20
   sections:
   - section: 5.1
-    problems: 1, 4, 10, 11, 19, 21, 26,
-    cont: 29, 33, 36
+    problems: 1, 4, 11, 19, 21, 25, 29,
+    cont: 36, 38
 - name: Homework 5.2
   due: 11:59pm Wed 3/22
   sections:
