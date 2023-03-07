@@ -12,6 +12,7 @@ The page shows Matlab codes which I used in occasional in-class demonstrations, 
   * [exercise344.m](assets/codes/S23/exercise344.m), color figure for #344 in Section 4.7 -> [output image](assets/codes/S23/exercise344.png)
   * [exercise1.m](assets/codes/S23/exercise1.m), midpoint rule for double integral on #1 in Section 5.1
   * [exercise67.m](assets/codes/S23/exercise67.m), midpoint rule for double integral on #67 in Section 5.2
+  * [exercise100.m](assets/codes/S23/exercise100.m), midpoint rule for double integral on #100 in Section 5.2
 
 ### Getting started with Matlab
 
