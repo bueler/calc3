@@ -103,6 +103,18 @@ homework:
   - section: 5.2
     problems: 61, 62, 67, 75, 81, 96,
     cont: 100, 103
+- name: Homework 5.3
+  due: 11:59pm Y
+  sections:
+  - section: 5.3
+    problems: FIXME
+    cont:
+- name: Homework 5.4
+  due: 11:59pm Y
+  sections:
+  - section: 5.4
+    problems: FIXME
+    cont:
 - name: Homework X
   due: 11:59pm Y
   sections:
