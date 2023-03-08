@@ -104,17 +104,17 @@ homework:
     problems: 61, 62, 67, 75, 81, 96,
     cont: 100, 103
 - name: Homework 5.3
-  due: 11:59pm Y
+  due: 11:59pm Mon 3/27
   sections:
   - section: 5.3
-    problems: FIXME
-    cont:
+    problems: 123, 126, 130, 135, 138, 139,
+    cont: 140, 145, 151, 152, 155, 169
 - name: Homework 5.4
-  due: 11:59pm Y
+  due: 11:59pm Wed 3/29
   sections:
   - section: 5.4
-    problems: FIXME
-    cont:
+    problems: 183, 185, 190, 195, 197, 206,
+    cont: 211, 228, 235
 - name: Homework X
   due: 11:59pm Y
   sections:
