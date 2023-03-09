@@ -29,6 +29,8 @@ quizzes:
 - name: Quiz 6
   date: 9 March
   sections: 4.6, 4.7
+  blank: quiz6.pdf
+  solutions: quiz6solns.pdf
 - name: Quiz 7
   date: 23 March
   sections: 5.1, 5.2
