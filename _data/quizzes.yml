@@ -24,6 +24,8 @@ quizzes:
 - name: Quiz 5
   date: 2 March
   sections: 4.4, 4.5
+  blank: quiz5.pdf
+  solutions: quiz5solns.pdf
 - name: Quiz 6
   date: 9 March
   sections: 4.6, 4.7
