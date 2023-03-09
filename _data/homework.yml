@@ -108,7 +108,7 @@ homework:
   sections:
   - section: 5.3
     problems: 123, 126, 130, 135, 138, 139,
-    cont: 140, 145, 151, 152, 155, 169
+    cont: 140, 145, 151, 155, 169
 - name: Homework 5.4
   due: 11:59pm Wed 3/29
   sections:
