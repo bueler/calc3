@@ -5,14 +5,14 @@ homework:
   due: 11:59pm Sat 1/21
   sections:
   - section: 2.1
-    problems: 4, 7, 9, 12, 14, 17, 26, 30, 32,
-    cont: 38, 40, 46
+    problems: 4, 7, 9, 12, 14, 17, 26, 30, 32, 38,
+    cont: 40, 46
 - name: Homework 2.2
   due: 11:59pm Mon 1/23
   sections:
   - section: 2.2
-    problems: 61, 64, 66, 68, 72, 74, 76, 78,
-    cont: 84, 89, 92, 100, 103
+    problems: 61, 64, 66, 68, 72, 74, 76, 78, 84,
+    cont: 89, 92, 100, 103
 - name: Homework 2.3
   due: 11:59pm Wed 1/25
   sections:
@@ -52,14 +52,14 @@ homework:
   due: 11:59pm Wed 2/15
   sections:
   - section: 4.1
-    problems: 4, 6, 7, 14, 17, 21, 26, 35,
-    cont: 39, 42, 44, 49, 55, 57
+    problems: 4, 6, 7, 14, 17, 21, 26, 35, 39, 42,
+    cont: 44, 49, 55, 57
 - name: Homework 4.2
   due: 11:59pm Mon 2/20
   sections:
   - section: 4.2
-    problems: 65, 70, 72, 77, 82, 83, 84, 88,
-    cont: 93, 102, 109, 110
+    problems: 65, 70, 72, 77, 82, 83, 84, 88, 93,
+    cont: 102, 109, 110
 - name: Homework 4.3
   due: 11:59pm Wed 2/22
   sections:
@@ -95,14 +95,12 @@ homework:
   due: 11:59pm Mon 3/20
   sections:
   - section: 5.1
-    problems: 1, 4, 11, 19, 21, 25, 29,
-    cont: 36, 38
+    problems: 1, 4, 11, 19, 21, 25, 29, 36, 38
 - name: Homework 5.2
   due: 11:59pm Wed 3/22
   sections:
   - section: 5.2
-    problems: 61, 62, 67, 75, 81, 96,
-    cont: 100, 103
+    problems: 61, 62, 67, 75, 81, 96, 100, 103
 - name: Homework 5.3
   due: 11:59pm Mon 3/27
   sections:
