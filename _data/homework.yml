@@ -113,8 +113,7 @@ homework:
   due: 11:59pm Wed 3/29
   sections:
   - section: 5.4
-    problems: 183, 185, 190, 195, 197, 206,
-    cont: 211, 235
+    problems: 183, 185, 190, 195, 197, 206, 235
 - name: Homework X
   due: 11:59pm Y
   sections:
