@@ -122,8 +122,8 @@ homework:
   due: 11:59pm Mon 4/3
   sections:
   - section: 5.5
-    problems: 241, 243, 254, 259, 269, 271
-    cont: 274, 285, 291
+    problems: 241, 244, 254, 259, 269, 274
+    cont: 291
 - name: Homework X
   due: 11:59pm Y
   sections:
