@@ -133,8 +133,8 @@ homework:
   due: 11:59pm Mon 4/10
   sections:
   - section: 6.2
-    problems: 39, 41, 43, 49, 53, 54, 55,
-    cont: 56, 57, 71, 77
+    problems: 39, 41, 43, 49, 53, 54, 56,
+    cont: 57, 71
 - name: Homework X
   due: 11:59pm Y
   sections:
