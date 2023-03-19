@@ -135,6 +135,18 @@ homework:
   - section: 6.2
     problems: 39, 41, 43, 49, 53, 54, 56,
     cont: 57, 71
+- name: Homework 6.3
+  due: 11:59pm Wed 4/12
+  sections:
+  - section: 6.3
+    problems: 99, 100, 103, 107, 109, 110, 112,
+    cont: 115, 119, 120, 123, 126, 131
+- name: Homework 6.4
+  due: 11:59pm Mon 4/17
+  sections:
+  - section: 6.4
+    problems: 147, 149, 156, 157, 161, 162, 166
+    cont: 177
 - name: Homework X
   due: 11:59pm Y
   sections:
