@@ -38,7 +38,7 @@ quizzes:
   solutions: quiz7solns.pdf
 - name: Quiz 8
   date: 30 March
-  sections: 5.3, 5.4, 2.7, 5.5
+  sections: 5.3, 5.4
 - name: Quiz 9
   date: 13 April
   sections: 6.3, 6.4
