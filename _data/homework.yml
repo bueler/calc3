@@ -119,12 +119,12 @@ homework:
     problems: 371, 375, 376, 383, 387, 389,
     cont: 393, 394, 400
 - name: Homework 5.5
-  due: 11:59pm Mon 4/3
+  due: 11:59pm Wed 4/5
   sections:
   - section: 5.5
     problems: 241, 244, 254, 259, 269, 274, 291
 - name: Homework 6.1
-  due: 11:59pm Wed 4/5
+  due: 11:59pm Mon 4/10
   sections:
   - section: 6.1
     problems: 2, 5, 8, 13, 15, 17, 22, 23,
