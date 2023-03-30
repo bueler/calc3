@@ -13,6 +13,7 @@ The page shows Matlab codes which I used in occasional in-class demonstrations, 
   * [exercise1.m](assets/codes/S23/exercise1.m), midpoint rule for double integral on #1 in Section 5.1
   * [exercise67.m](assets/codes/S23/exercise67.m), midpoint rule for double integral on #67 in Section 5.2
   * [exercise100.m](assets/codes/S23/exercise100.m), midpoint rule for double integral on #100 in Section 5.2
+  * [bumpysphere.m](assets/codes/S23/bumpysphere.m), plot a bumpy sphere (Section 2.7) -> [output image](assets/codes/S23/bumpysphere.png)
 
 ### Getting started with Matlab
 
