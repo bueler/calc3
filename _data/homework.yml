@@ -145,8 +145,8 @@ homework:
   due: 11:59pm Mon 4/17
   sections:
   - section: 6.4
-    problems: 147, 149, 156, 157, 161, 162, 166
-    cont: 177
+    problems: 147, 149, 156, 157, 161, 166,
+    cont: 173, 177
 - name: Homework X
   due: 11:59pm Y
   sections:
