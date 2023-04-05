@@ -14,6 +14,7 @@ The page shows Matlab codes which I used in occasional in-class demonstrations, 
   * [exercise67.m](assets/codes/S23/exercise67.m), midpoint rule for double integral on #67 in Section 5.2
   * [exercise100.m](assets/codes/S23/exercise100.m), midpoint rule for double integral on #100 in Section 5.2
   * [bumpysphere.m](assets/codes/S23/bumpysphere.m), plot a bumpy sphere (Section 2.7) -> [output image](assets/codes/S23/bumpysphere.png)
+  * [twofields.m](assets/codes/S23/twofields.m), plot vector fields using Matlab's _quiver_ (Section 6.1) -> [output image](assets/codes/S23/twofields.png)
 
 ### Getting started with Matlab
 
