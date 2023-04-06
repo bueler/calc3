@@ -1,0 +1,198 @@
+\documentclass[11pt]{amsart}
+%\pagestyle{empty} 
+\setlength{\topmargin}{-0.5in} % usually -0.25in
+\addtolength{\textheight}{1.2in} % usually 1.25in
+\addtolength{\oddsidemargin}{-0.95in}
+\addtolength{\evensidemargin}{-0.95in}
+\addtolength{\textwidth}{1.9in} %\setlength{\parindent}{0pt}
+
+\newcommand{\normalspacing}{\renewcommand{\baselinestretch}{1.1}\tiny\normalsize}
+\normalspacing
+
+% macros
+\usepackage{amssymb,xspace,alltt,verbatim}
+\usepackage[final]{graphicx}
+\usepackage[pdftex,colorlinks=true]{hyperref}
+\usepackage{fancyvrb}
+\usepackage{tikz}
+
+\newtheorem*{lem*}{Lemma}
+
+\newcommand{\ba}{\mathbf{a}}
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bc}{\mathbf{c}}
+\newcommand{\bbf}{\mathbf{f}}
+\newcommand{\bi}{\mathbf{i}}
+\newcommand{\bj}{\mathbf{j}}
+\newcommand{\bk}{\mathbf{k}}
+\newcommand{\br}{\mathbf{r}}
+\newcommand{\bs}{\mathbf{s}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\mathbf{y}}
+
+\newcommand{\bT}{\mathbf{T}}
+
+\newcommand{\CC}{{\mathbb{C}}}
+\newcommand{\RR}{{\mathbb{R}}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\ZZ}{{\mathbb{Z}}}
+\newcommand{\NN}{{\mathbb{N}}}
+\newcommand{\ip}[2]{\mathrm{\left<#1,#2\right>}}
+
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+\newcommand{\Log}{\operatorname{Log}}
+\newcommand{\grad}{\nabla}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.} }
+\newcommand{\pts}[1]{(\emph{#1 pts})}
+
+\newcommand{\probpts}[2]{\prob{#1} \pts{#2} \quad}
+\newcommand{\ppartpts}[2]{\textbf{(#1)} \pts{#2} \quad}
+\newcommand{\epartpts}[2]{\medskip\noindent \textbf{(#1)} \pts{#2} \quad}
+
+
+\begin{document}
+\hfill \Large Name:\underline{\phantom{Ed Bueler really really long long long name}}
+\medskip
+
+\scriptsize \noindent Math 253 Calculus III (Bueler) \hfill Thursday, 6 April 2023
+\medskip
+
+\LARGE\centerline{\textbf{Midterm Exam 2}}
+
+\smallskip
+\begin{quote}
+\large
+\textbf{No book, notes, electronics, calculator, or internet access.  100 points possible.  70 minutes maximum.}
+\end{quote}
+
+\normalsize
+\medskip
+
+\thispagestyle{empty}
+
+%%% BUILD FROM
+% quizzes 5,6,7,8 AND sections
+% 4.4 tangent planes and linear approx
+% 4.5 chain rules
+% 4.6 gradient and directional derivs
+% 4.7 optimization
+% 5.1 double integrals: rectangular regions
+% 5.2 double integrals: general regions
+% 5.3 double integrals in polar
+% 5.4 triple integrals
+% 2.7 cyl. and spher. coords
+% 5.5 triple integrals in cyl. and spher. coords
+
+
+% 4.4 #173 (on homework)
+\probpts{1}{10}  Find an equation of the tangent plane of the surface \,{\large $z = \ln(10 x^2 + 2 y^2 + 1)$}\, at the point \,{\large $P(0,0,0)$}.
+\vfill
+
+\prob{2}  \ppartpts{a}{5}   Suppose \,{\large $f(u,v)$}\, is a function of two variables, and that, in turn, \,{\large $u=u(r,s)$}\, and \,{\large $v=v(r,s)$}.  Write down the chain rule which computes \,{\large $\frac{\partial f}{\partial s}$}:
+
+\bigskip
+    $$\frac{\partial f}{\partial s} = \hspace{6.0in}$$
+\vspace{0.5in}
+
+% like 4.5 #245 (on homework), but simpler
+\epartpts{b}{5}  Specifically suppose \,{\large $f(u,v)=uv$},\, {\large $u(r,s)=r \cos s$},\, and \, {\large $v(r,s)=r \sin s$}.  Compute the following partial derivative, and express your answer as a simplified expression in variables $r,s$.
+
+\bigskip
+    $$\frac{\partial f}{\partial s} = \hspace{6.0in}$$
+\vspace{1.0in}
+
+\clearpage\newpage
+% easier than 4.7 #324 (on homework)
+\prob{3}  Consider the function \,{\large $f(x,y) = x^3 + y^3 - 12 x - 15 y + 7$}.
+
+\epartpts{a}{5}  Compute the gradient:
+
+\bigskip
+    $$\grad f(x,y) = \hspace{6.0in}$$
+\vspace{0.25in}
+
+\epartpts{b}{5}  Find all of the critical points.  Write each one as a pair $(x,y)$.
+\vfill
+
+\epartpts{c}{5}  Use the second derivative test to classify all of the critical points, as local maximum, local minimum, or saddle point.
+\vfill
+
+\epartpts{d}{3}  Consider the square \,{\large $D = [-10,10]\times [-10,10]$}.  Does the absolute maximum of \,{\large $f(x,y)$}\, over \,{\large $D$}\, occur at one of the critical points found in part \textbf{(b)}?  State the answer \textbf{yes} or \textbf{no}, and explain in one sentence.
+
+\medskip \noindent
+(\emph{Hint.}  You do not need to find the absolute maximum!  But consider values of $f(x,y)$ when answering.)
+\vspace{1.0in}
+
+
+\clearpage\newpage
+% easier than 5.2 #77
+\prob{4}  \ppartpts{a}{5}  Sketch the region
+
+\medskip
+\noindent {\large $D = \Big\{(x,y)\,\big|\,-1\le y \le 0, \, 0 \le x \le 1-y^2\Big\}$}.
+\vfill
+
+\epartpts{b}{10}  Compute and simplify the double integral over the region $D$ in part \textbf{(a)}:
+
+\bigskip
+$$\iint_D xy\,dA = \hspace{5.0in}$$
+\vspace{2.5in}
+
+% Quiz 8 question verbatim
+\probpts{5}{10}  \underline{Set up, and then evaluate,} a double integral for the area of one leaf of the rose $r=\sin (2\theta)$, as shown in the figure.
+
+\hfill \includegraphics[width=0.32\textwidth]{figs/fourleaf.jpg}
+\vspace{1.0in}
+
+
+
+\clearpage\newpage
+% 5.4 #183, from homework, simplified
+\probpts{6}{10}  Define \,{\large $B = \Big\{(x,y,z)\,\big|\, 0\le x\le 1, \, 0 \le y \le \pi, \, -1 \le z \le 1\Big\}$}, a rectangular solid box.  Evaluate the triple integral: 
+
+\bigskip
+$$\iiint_B x \sin y\,dV = \hspace{5.0in}$$
+\vfill
+
+\probpts{7}{10}  The region \,{\large $E = \Big\{(x,y,z)\,\big|\, x^2 + y^2 \le 1, \, x \ge 0, \, x \ge y, \, -1 \le z \le 1\Big\}$} is shown below.  Use \textbf{cylindrical coordinates} to evaluate the triple integral \,{\large $\iiint_E f(x,y,z) \,dV$} \, if $f(x,y,z)=xy$.
+
+\bigskip \hfill \includegraphics[width=0.35\textwidth]{figs/cheesewedge.jpg}
+\vfill
+
+
+\clearpage\newpage
+\probpts{8}{10}  Find the average value of the function \,{\large $f(x,y,z)=x^2+y^2+z^2$} \, over the unit sphere  \,{\large $S = \Big\{(x,y,z)\,\big|\, x^2 + y^2 + z^2 \le 1\Big\}$}.
+
+\medskip \noindent
+(\emph{Hints.}  What coordinates would make this easiest?  Yes, you \emph{may} use the fact that the volume of the unit sphere is $4\pi/3$; there is no need to justify it.)
+\vspace{4.5in}
+
+\probpts{9}{7}  Use \textbf{spherical coordinates} to \underline{fully set up} a triple integral for the volume which is outside the cone \, {\large $z^2=x^2+y^2$} \, but inside the unit sphere \, {\large $x^2+y^2 + z^2 =1$}.  \underline{Do not evaluate the integral.}
+
+\medskip \noindent
+(\emph{Hint.}  Start by drawing a decent sketch!)
+\vfill
+
+\clearpage\newpage
+\probpts{Extra Credit}{3}  The equation \, {\large $x^2+y^2=9$} \, is a cylinder.  Convert this equation to \textbf{spherical coordinates}, and write your simplified answer in the form {\large $\rho=f(\varphi,\theta)$}.
+\vfill
+
+\bigskip
+\noindent \hrule
+\begin{center}
+\small
+\bigskip
+\textsc{blank space}
+\end{center}
+\vfill
+
+\end{document}
