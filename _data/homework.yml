@@ -163,6 +163,9 @@ homework:
 - name: Homework 6.7/6.8
   due: 11:59pm Mon 5/1
   sections:
-  - section: TO BE DETERMINED
-    problems:
+  - section: 6.7
+    problems: TO BE DETERMINED
+    cont:
+  - section: 6.8
+    problems: TO BE DETERMINED
     cont:
