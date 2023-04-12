@@ -136,33 +136,33 @@ homework:
     problems: 39, 41, 43, 49, 53, 54, 56,
     cont: 57, 71
 - name: Homework 6.3
-  due: 11:59pm Fri 4/14
+  due: 11:59pm Mon 4/17
   sections:
   - section: 6.3
     problems: 99, 100, 103, 107, 109, 110, 112,
     cont: 115, 119, 120, 126, 130, 131
 - name: Homework 6.4
-  due: 11:59pm Mon 4/17
+  due: 11:59pm Wed 4/19
   sections:
   - section: 6.4
     problems: 147, 149, 156, 157, 161, 166,
     cont: 173, 177
 - name: Homework 6.5
-  due: 11:59pm Wed 4/19
+  due: 11:59pm Mon 4/24
   sections:
   - section: 6.5
     problems: 206, 207, 209, 213, 216, 219, 221,
     cont: 224, 225, 227, 229, 236, 239, 241,
     contcont: 249, 255
 - name: Homework 6.6
-  due: 11:59pm Mon 4/24
+  due: 11:59pm Wed 4/26
   sections:
   - section: 6.6
     problems: 269, 270, 273, 274, 276, 277, 281,
     cont: 283, 285, 291, 295, 303, 317, 323
-- name: Homework X
-  due: 11:59pm Y
+- name: Homework 6.7/6.8
+  due: 11:59pm Mon 5/1
   sections:
-  - section: Z
+  - section: TO BE DETERMINED
     problems:
     cont:
