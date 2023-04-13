@@ -45,7 +45,7 @@ quizzes:
   date: 13 April
   sections: 6.1, 6.2
   blank: quiz9.pdf
-  #solutions: quiz9solns.pdf
+  solutions: quiz9solns.pdf
 - name: Quiz 10
   date: 20 April
   sections: 6.3, 6.4
