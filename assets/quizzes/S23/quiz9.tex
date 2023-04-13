@@ -1,0 +1,172 @@
+\documentclass[12pt]{article}
+
+% Layout.
+\usepackage[top=1.2in, bottom=0.75in, left=1in, right=1in, headheight=1.0in, headsep=0pt]{geometry}
+
+% Fonts.
+\usepackage{mathptmx}
+\usepackage[scaled=0.86]{helvet}
+\renewcommand{\emph}[1]{\textsf{\textbf{#1}}}
+
+% TiKZ.
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{calc}
+\pgfplotsset{my style/.append style={axis x line=middle, axis y line=middle, xlabel={$x$}, ylabel={$y$}}}
+\pgfplotsset{compat=1.16}
+
+% Misc packages.
+\usepackage{amsmath,amssymb,latexsym,bm,array,multicol,enumitem}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+% Commands to set various header/footer components.
+\makeatletter
+\def\doctitle#1{\gdef\@doctitle{#1}}
+\doctitle{Use {\tt\textbackslash doctitle\{MY LABEL\}}.}
+\def\docdate#1{\gdef\@docdate{#1}}
+\docdate{Use {\tt\textbackslash docdate\{MY DATE\}}.}
+\def\doccourse#1{\gdef\@doccourse{#1}}
+\let\@doccourse\@empty
+\def\docscoring#1{\gdef\@docscoring{#1}}
+\let\@docscoring\@empty
+\def\docversion#1{\gdef\@docversion{#1}}
+\let\@docversion\@empty
+\makeatother
+
+% Headers and footers layout.
+\makeatletter
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clears all headers/footers.
+\lhead{\emph{\@doctitle\hfill\@docdate} \medskip
+\ifnum \value{page} > 1\relax\else\\
+\emph{Name: \rule{3.5in}{1pt}\hfill \@docscoring}
+\fi}
+
+\rfoot{\emph{\@docversion}}
+\lfoot{\emph{\@doccourse}}
+\cfoot{\emph{\thepage}}
+\renewcommand{\headrulewidth}{0pt}%
+\makeatother
+
+% Paragraph spacing
+\parindent 0pt
+\parskip 6pt plus 1pt
+
+% A problem is a section-like command. Use \problem{5} for a problem worth 5 points.
+\newcounter{probcount}
+\newcounter{subprobcount}
+\setcounter{probcount}{0}
+
+\newcommand{\problem}[1]{%
+\par
+\addvspace{4pt}%
+\setcounter{subprobcount}{0}%
+\stepcounter{probcount}%
+\makebox[0pt][r]{\emph{\arabic{probcount}.}\hskip1ex}\emph{[#1 points]}\hskip1ex}
+
+\newcommand{\thesubproblem}{\emph{\alph{subprobcount}.}}
+
+% Subproblems are an enumerate-like environment with a consistent
+% numbering scheme.  Use \begin{subproblems}\item...\item...\end{subproblems}
+\newenvironment{subproblems}{%
+\begin{enumerate}[itemindent=8pt,leftmargin=0pt]%
+\setcounter{enumi}{\value{subprobcount}}%
+\renewcommand{\labelenumi}{\emph{\textsl{\alph{enumi})}} \,}%
+}%
+{%
+\setcounter{subprobcount}{\value{enumi}}%
+\end{enumerate}%
+}
+
+% Blanks for answers in normal and math mode.
+\newcommand{\blank}[1]{\rule{#1}{0.75pt}}
+\newcommand{\mblank}[1]{\underline{\hspace{#1}}}
+\def\emptybox(#1,#2){\framebox{\parbox[c][#2]{#1}{\rule{0pt}{0pt}}}}
+
+% Misc.
+\renewcommand{\d}{\displaystyle}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\threeopts}{{\small \hspace{-6mm} $\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{absolutely}} \end{matrix}$ \qquad\qquad $\begin{matrix} \text{\textsc{converges}} \\ \text{\textsc{conditionally}} \end{matrix}$ \qquad\qquad \textsc{diverges}} \bigskip}
+
+
+\newcommand{\ba}{\mathbf{a}}
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bc}{\mathbf{c}}
+\newcommand{\bi}{\mathbf{i}}
+\newcommand{\bj}{\mathbf{j}}
+\newcommand{\bk}{\mathbf{k}}
+\newcommand{\bn}{\mathbf{n}}
+\newcommand{\br}{\mathbf{r}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+
+\newcommand{\bF}{\mathbf{F}}
+\newcommand{\bG}{\mathbf{G}}
+\newcommand{\bH}{\mathbf{H}}
+\newcommand{\bT}{\mathbf{T}}
+
+\newcommand{\grad}{\nabla}
+\newcommand{\Div}{\nabla\cdot}
+
+\newcommand{\ip}[2]{\mathrm{\left<#1,#2\right>}}
+\newcommand{\vv}[2]{\mathrm{\left<#1,#2\right>}}
+\newcommand{\vvv}[3]{\mathrm{\left<#1,#2,#3\right>}}
+
+
+\doctitle{Math 253: Quiz 9}
+\docdate{Thursday 13 April, 2023}
+\doccourse{}
+\docversion{}
+\docscoring{\fbox{{\LARGE \strut}\hspace{0.8in} / 25}}
+
+\begin{document}
+30 minutes maximum.  No aids (book, calculator, etc.) are permitted.  Show all work and use proper notation for full credit.  Answers should be in reasonably-simplified form.  25 points possible.
+
+% like 6.1 #8
+\problem{4}  Sketch the vector field \,{\large  $\bF(x,y) = \bi - \bj$}.   Describe the vector field in a sentence.  (\textsl{Draw at least 6 vectors in your sketch.  Regarding the sentence, what is the length of the vectors, and their directions?})
+\vfill
+
+% like 6.1 #17
+\problem{3}  Compute the gradient vector field of \,{\large $f(x,y,z) = xy - yz + z^3$.}
+\vspace{3.0in}
+
+
+\clearpage\newpage
+% like 6.2 #53 but simpler
+\problem{6}  Find the work done by the force field  \,{\large $\bF(x,y) = -2y\bi + 2x \bj + (x+y)\bk$} in moving an object {\large \strut} along the curve  \,{\large $\br(t) = \cos(t) \bi + \sin(t)\bj - 3 \bk$}, where $0 \le t \le \pi$.
+\vfill
+
+\problem{3}  Find $\bT(t)$, the unit tangent vector field, for the curve $\br(t) = \left<t,t^2,t^3\right>$.
+\vspace{2.5in}
+
+
+\clearpage\newpage
+% like 6.2 #73, but easier
+\problem{6}  Evaluate the line integral \,{\large $\displaystyle \int_C f(x,y)\,ds$}\, of the scalar function \,{\large $f(x,y)=x+y$}\, along the straight-line path connecting the origin to the point $(1,1)$.
+\vfill
+
+
+% like 6.1 #17
+\problem{3}  Consider the vector fields $\bF = -y \bi + x\bj$, $\bG = x\bi + y \bj$, and $\bH = x \bi - y \bj$.  Match $\bF,\bG,\bH$ to their graphs below.  In particular, write the variable name below the matching graph.
+
+\noindent\hspace{-10mm}
+\mbox{\includegraphics[width=0.37\textwidth]{figs/F.jpg} \quad \includegraphics[width=0.37\textwidth]{figs/G.jpg} \quad \includegraphics[width=0.33\textwidth]{figs/H.jpg}}
+
+\bigskip
+\hspace{7mm} \underline{\phantom{SPACE FOR L}} \hspace{38mm} \underline{\phantom{SPACE FOR L}} \hspace{36mm} \underline{\phantom{SPACE FOR L}}
+
+\bigskip\bigskip
+
+\clearpage\newpage
+\noindent \emph{Extra Credit. [1 point]} \,  I claim $\bF(x,y)=\left<e^x,y + e^x\right>$ is a conservative vector field.  Find a potential $f(x,y)$.
+% is F=<...> a gradient? if so, find f so that grad  F  = f
+\vfill
+
+\noindent \hrule
+
+\bigskip
+\centerline{\footnotesize \textsc{extra space for answers}}
+\vfill
+\end{document}

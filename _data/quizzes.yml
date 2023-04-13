@@ -43,10 +43,12 @@ quizzes:
   solutions: quiz8solns.pdf
 - name: Quiz 9
   date: 13 April
-  sections: 6.3, 6.4
+  sections: 6.1, 6.2
+  blank: quiz9.pdf
+  #solutions: quiz9solns.pdf
 - name: Quiz 10
   date: 20 April
-  sections: 6.5, 6.6
+  sections: 6.3, 6.4
 - name: Quiz 11
   date: 27 April
-  sections: 6.7, 6.8
+  sections: 6.5, 6.6
