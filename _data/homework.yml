@@ -158,8 +158,7 @@ homework:
   due: 11:59pm Wed 4/26
   sections:
   - section: 6.6
-    problems: 269, 270, 273, 274, 276, 277, 281,
-    cont: 283, 285, 291, 295, 303, 317, 323
+    problems: 273, 274, 277, 281, 283, 285, 291, 303
 - name: Homework 6.7/6.8
   due: 11:59pm Mon 5/1
   sections:
