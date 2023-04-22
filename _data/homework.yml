@@ -154,12 +154,12 @@ homework:
     problems: 206, 207, 209, 213, 216, 219, 221,
     cont: 224, 225, 227, 229, 236, 239, 241,
     contcont: 249, 255
-- name: Homework 6.6 [DOUBLE VALUE]
+- name: Homework 6.6 [x2 VALUE]
   due: 11:59pm Wed 4/26
   sections:
   - section: 6.6
     problems: 273, 274, 277, 281, 283, 285, 291, 303
-- name: Homework 6.7/6.8 [DOUBLE VALUE]
+- name: Homework 6.7/6.8 [x2 VALUE]
   due: 11:59pm Mon 5/1
   sections:
   - section: 6.7
