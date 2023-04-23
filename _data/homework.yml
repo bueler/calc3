@@ -163,7 +163,7 @@ homework:
   due: 11:59pm Mon 5/1
   sections:
   - section: 6.7
-    problems: 327, 333, 353
+    problems: 327, 339, 347
     cont:
   - section: 6.8
     problems: 385, 406, 408
