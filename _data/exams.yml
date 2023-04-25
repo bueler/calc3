@@ -14,6 +14,6 @@ exams:
   blank: mid2.pdf
   solutions: mid2solns.pdf
 - name: Final Exam
-  date: Tuesday 3 May, 8-10am (in class)
+  date: Wednesday 3 May, 8-10am (in class)
   sections: all previous, 6.1, 6.2, 6.3, 6.4, 6.5,
   cont: 6.6, 6.7, 6.8
