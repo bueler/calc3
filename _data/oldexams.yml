@@ -20,3 +20,7 @@ exams:
   date: Fall 2021
   blank: finalF21.pdf
   solutions: finalF21solns.pdf
+- name: Final Exam 
+  date: Spring 2019
+  blank: finalS19.pdf
+  solutions: finalS19solns.pdf
