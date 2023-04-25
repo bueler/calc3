@@ -19,7 +19,7 @@ The page shows Matlab codes which I used in occasional in-class demonstrations, 
 
 ### Getting started with Matlab
 
-You can use either [Matlab online](https://matlab.mathworks.com/) or [Octave online](https://octave-online.net/).  Also you can run [Matlab on your own machine](https://www.mathworks.com/products/matlab/student.html).  If you are new to Matlab, perhaps read these short PDFs from David Maxwell's courses:
+You can use either [Matlab online](https://matlab.mathworks.com/) or [Octave online](https://octave-online.net/).  Also you can run [Matlab on your own machine](https://www.mathworks.com/products/matlab/student.html).  If you are new to Matlab, try reading either [Matlab's "Getting Started" tutorial](https://www.mathworks.com/help/matlab/getting-started-with-matlab.html), or perhaps these short PDFs from David Maxwell's courses:
 
   * [MATLAB Basics](assets/codes/S23/MatlabBasics.pdf), which includes an intro to 2D plotting
   * [MATLAB 3d Graphics](assets/codes/S23/Matlab3dPlot.pdf), including usage of `meshgrid`, `surf`, and `contour`
