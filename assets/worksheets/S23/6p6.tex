@@ -1,0 +1,98 @@
+\documentclass[11pt]{amsart}
+%prepared in AMSLaTeX, under LaTeX2e
+\addtolength{\oddsidemargin}{-.9in} 
+\addtolength{\evensidemargin}{-.9in}
+\addtolength{\topmargin}{-.9in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\textheight}{1.5in}
+
+\renewcommand{\baselinestretch}{1.05}
+
+\usepackage{verbatim} % for "comment" environment
+
+\usepackage{palatino}
+
+\usepackage[final]{graphicx}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\usepackage{enumitem,xspace,fancyvrb}
+
+\newtheorem*{thm}{Theorem}
+\newtheorem*{defn}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem*{problem}{Problem}
+\newtheorem*{remark}{Remark}
+
+\DefineVerbatimEnvironment{mVerb}{Verbatim}{numbersep=2mm,frame=lines,framerule=0.1mm,framesep=2mm,xleftmargin=4mm,fontsize=\footnotesize}
+
+% macros
+\usepackage{amssymb}
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\bE}{\mathbf{E}}
+\newcommand{\bF}{\mathbf{F}}
+\newcommand{\bJ}{\mathbf{J}}
+
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bi}{\mathbf{i}}
+\newcommand{\bj}{\mathbf{j}}
+\newcommand{\bk}{\mathbf{k}}
+\newcommand{\br}{\mathbf{r}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+
+\newcommand{\ppr}[1]{\frac{\partial #1}{\partial r}}
+\newcommand{\ppt}[1]{\frac{\partial #1}{\partial t}}
+\newcommand{\ppx}[1]{\frac{\partial #1}{\partial x}}
+\newcommand{\ppy}[1]{\frac{\partial #1}{\partial y}}
+\newcommand{\ppz}[1]{\frac{\partial #1}{\partial z}}
+
+\newcommand{\Div}{\ensuremath{\nabla\cdot}}
+\newcommand{\Curl}{\ensuremath{\nabla\times}}
+
+\newcommand{\eps}{\epsilon}
+\newcommand{\grad}{\nabla}
+\newcommand{\ip}[2]{\ensuremath{\left<#1,#2\right>}}
+\newcommand{\lam}{\lambda}
+\newcommand{\lap}{\triangle}
+
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.}\quad }
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+
+\newcommand{\ds}{\displaystyle}
+
+\begin{document}
+\scriptsize \noindent Math 253 Calculus III (Bueler) \hfill 27 April 2023 \fbox{\emph{Not turned in!}}
+\normalsize\medskip
+
+\Large\centerline{\textbf{Worksheet: Surface integrals}}
+\medskip
+\normalsize
+
+\thispagestyle{empty}
+
+\bigskip
+
+\prob{1}  Sketch the parameterized surface $S$ given by $\br(u,v)=\left<\cos v,\sin v,u\right>$ for $0 \le u \le 5$ and $0 \le v \le \pi$.  Then compute the surface integral
+    $$\iint_S z \,dS = \hspace{5.0in}$$
+% = 25 \pi
+\vfill
+
+\prob{2}  Let $S$ be the part of the graph (surface) $z=1-x^2-y^2$ for which $z \ge 0$.  Parameterize this surface.  Set-up, and compute, a surface integral for its area.
+% \br(u,v)=\left<u\cos v,u\sin v,1-u^2\right>
+% \iint_S 1 \,dS = (pi/6) (5^(3/2) - 1)
+\vfill
+
+%\noindent \hrule
+%
+%\bigskip
+%\centerline{\footnotesize \textsc{extra space}}
+%\vfill
+\end{document}
