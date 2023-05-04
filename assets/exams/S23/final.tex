@@ -1,0 +1,206 @@
+\documentclass[11pt]{amsart}
+%\pagestyle{empty} 
+\setlength{\topmargin}{-0.5in} % usually -0.25in
+\addtolength{\textheight}{1.2in} % usually 1.25in
+\addtolength{\oddsidemargin}{-0.95in}
+\addtolength{\evensidemargin}{-0.95in}
+\addtolength{\textwidth}{1.9in} %\setlength{\parindent}{0pt}
+
+\newcommand{\normalspacing}{\renewcommand{\baselinestretch}{1.1}\tiny\normalsize}
+\normalspacing
+
+% macros
+\usepackage{amssymb,esint,xspace,alltt,verbatim}
+\usepackage[final]{graphicx}
+\usepackage[pdftex,colorlinks=true]{hyperref}
+\usepackage{fancyvrb}
+\usepackage{tikz}
+
+\newtheorem*{lem*}{Lemma}
+
+\newcommand{\ba}{\mathbf{a}}
+\newcommand{\bb}{\mathbf{b}}
+\newcommand{\bc}{\mathbf{c}}
+\newcommand{\bbf}{\mathbf{f}}
+\newcommand{\bi}{\mathbf{i}}
+\newcommand{\bj}{\mathbf{j}}
+\newcommand{\bk}{\mathbf{k}}
+\newcommand{\br}{\mathbf{r}}
+\newcommand{\bs}{\mathbf{s}}
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\by}{\mathbf{y}}
+
+\newcommand{\bF}{\mathbf{F}}
+\newcommand{\bN}{\mathbf{N}}
+\newcommand{\bT}{\mathbf{T}}
+
+\newcommand{\CC}{{\mathbb{C}}}
+\newcommand{\RR}{{\mathbb{R}}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\ZZ}{{\mathbb{Z}}}
+\newcommand{\NN}{{\mathbb{N}}}
+\newcommand{\ip}[2]{\mathrm{\left<#1,#2\right>}}
+
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+\newcommand{\Log}{\operatorname{Log}}
+
+\newcommand{\grad}{\nabla}
+\newcommand{\Div}{\nabla\cdot}
+\newcommand{\curl}{\nabla\times}
+
+\newcommand{\ds}{\displaystyle}
+
+\newcommand{\Matlab}{\textsc{Matlab}\xspace}
+
+\newcommand{\prob}[1]{\bigskip\noindent\textbf{#1.} }
+\newcommand{\pts}[1]{(\emph{#1 pts})}
+
+\newcommand{\probpts}[2]{\prob{#1} \pts{#2} \quad}
+\newcommand{\ppartpts}[2]{\textbf{(#1)} \pts{#2} \quad}
+\newcommand{\epartpts}[2]{\medskip\noindent \textbf{(#1)} \pts{#2} \quad}
+
+
+\begin{document}
+\hfill \Large Name:\underline{\phantom{Ed Bueler really really long long long name}}
+\medskip
+
+\scriptsize \noindent Math 253 Calculus III (Bueler) \hfill Wednesday, 3 May 2023
+\medskip
+
+\LARGE\centerline{\textbf{Final Exam}}
+
+\smallskip
+\begin{quote}
+\large
+\textbf{No book, electronics, calculator, or internet access.  $\frac{1}{2}$ sheet of notes allowed; double-sided okay!  125 points possible.  120 minutes maximum.}
+\end{quote}
+
+\normalsize
+\medskip
+
+\thispagestyle{empty}
+
+\probpts{1}{8}  Match the vector fields $\bF$ with the plots.  Write labels \textbf{(a)} through \textbf{(d)} in the spaces.
+
+\vspace{20mm}
+
+\hspace{-10mm}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+\underline{\phantom{foobar}} \quad \bF(x,y) &= \left<x,-y\right> \\
+\underline{\phantom{foobar}} \quad \bF(x,y) &= \Big<\textstyle{\frac{-3x}{\sqrt{x^2+y^2}},\frac{-3y}{\sqrt{x^2+y^2}}}\Big> \\
+\underline{\phantom{foobar}} \quad \bF(x,y) &= \left<2,4\right>  \\
+\underline{\phantom{foobar}} \quad \bF(x,y) &= \left<4 \cos(\textstyle{\frac{y}{3} + \frac{\pi}{4}}),4 \sin(\textstyle{\frac{y}{3} + \frac{\pi}{4}})\right>
+\end{align*}
+\end{minipage}
+
+\vspace{-40mm}
+
+\mbox{\hspace{75mm}\includegraphics[width=0.6\textwidth]{vectorfields.png}}
+\medskip
+
+\probpts{2}{10}  Determine whether $\bF$ is a conservative vector field.  If it is, find $f$ so that $\bF = \grad f$.
+
+\medskip
+    $$\bF(x,y) = (ye^x + \sin y)\bi + (e^x + x \cos y)\bj \hspace{4.0in}$$
+\vfill
+
+
+\clearpage\newpage
+\probpts{3}{10}  Suppose $\bF(x,y) = \left<x^2+y,3x-y^2\right>$.  Calculate $\displaystyle\oint_C \bF\cdot d\br$ for \emph{any} positively-oriented, closed, simple curve $C$ enclosing a region $D$ which has area $6$.  (\emph{Hint}.  Green's Theorem)
+\vfill
+
+\probpts{4}{10}  Evaluate the line integral if $C$ is the line segment from $(0,0)$ to $(5,4)$:
+
+\medskip
+    $$\int_C x e^y \,ds = \hspace{5.5in}$$
+\vfill
+
+
+\clearpage\newpage
+\prob{5}  Consider the closed surface $S$ which is formed by the equations $x^2+y^2=4$, $z=0$, and $z=1$.
+
+\epartpts{a}{4}  Sketch the surface $S$.  (\emph{Remember to label the axes and indicate scale on each axis.  Sketch reasonably large!})
+\vspace{2.5in}
+
+\epartpts{b}{6}  Now suppose $\bF=\left<x,y,z^2-1\right>$ is a vector field.  Use the \textbf{divergence theorem} to compute
+    $$\varoiint_S \bF\cdot \bN\,dS = \hspace{5.5in}$$
+\vfill
+
+\probpts{6}{8}  Find a unit vector that is orthogonal to both $\bi+\bj$ and $\bi+\bk$.
+\vspace{2.0in}
+
+
+\clearpage\newpage
+\prob{7} \ppartpts{a}{4}  Sketch the solid which is above the cone $z=\sqrt{x^2+y^2}$ and inside the sphere $x^2+y^2+z^2=1$.  (\emph{Label the axes and indicate scale on each axis.  Sketch reasonably large!})
+\vspace{3.0in}
+
+\epartpts{b}{6}  Use \textbf{spherical coordinates} to find the volume of the solid in part \textbf{(a)}.
+\vfill
+
+
+\clearpage\newpage
+\probpts{8}{10}  Find an equation of the plane through the point $(1,-1,-1)$ and parallel to the plane $5x-y-z=6$.  Simplify to the form $ax+by+cz+d=0$.
+\vfill
+
+\prob{9}  Suppose $\bF = x \bi + y^2 \bj + (z^2+xy) \bk$.
+
+\epartpts{a}{5}  Compute and simplify the divergence $\Div\bF$.
+\vspace{2.0in}
+
+\epartpts{b}{5}  Compute and simplify the curl $\curl\bF$.
+\vspace{2.0in}
+
+
+\clearpage\newpage
+\prob{10} \ppartpts{a}{5}  Sketch the plane curve $C$ with the given vector equation, indicating its orientation.  (\emph{Label the axes and indicate scale on each axis.  Sketch reasonably large!})
+    $$\br(t) = 4 \sin t\,\bi + 2 \cos t\,\bj, \qquad 0 \le t \le \frac{\pi}{2} \hspace{3.5in}$$
+\vfill
+
+\epartpts{b}{5}  Compute the unit tangent vector field $\bT(t)$ for the curve $C$ in part \textbf{(a)}.
+\vfill
+
+\probpts{11}{9}  Compute and simplify the linearization $L(x,y)$ of the function at the point:
+    $$f(x,y) = \sqrt{xy}, \qquad (1,4) \hspace{4.0in}$$
+\vfill
+
+
+\clearpage\newpage
+\prob{12}  Suppose
+    $$w=xy+yz+zx, \qquad x=r\cos\theta, \quad y=r\sin\theta, \quad z=r\theta$$
+
+\epartpts{a}{5}  State the chain rule for $\ds \frac{\partial w}{\partial \theta}$ which applies in this case.
+\vspace{1.5in}
+
+\epartpts{b}{5}  Compute $\ds \frac{\partial w}{\partial \theta}$ when $r=2$ and $\ds \theta=\frac{\pi}{2}$.  Simplify the answer to a number.
+\vfill
+
+\probpts{Extra Credit I}{2}  Stokes' theorem says that $\ds \iint_S (\curl\bF)\cdot \bN\,dS = \oint_C \bF\cdot d\br$ for any surface $S$ in 3D with oriented boundary $C$.  Explain, in sentences and equations, using correct notation, the situation in which this theorem becomes Green's theorem.  (\emph{A sketch may help, too.})
+\vspace{2.0in}
+
+
+\clearpage\newpage
+\prob{13} \ppartpts{a}{5}  Find all critical points of the function:
+    $$f(x,y)=2-x^4+2x^2-y^2 \hspace{4.0in}$$
+\vfill
+
+\epartpts{b}{5}  Find all local maxima, local minima, and saddle points of the function in part \textbf{(a)}.
+\vfill
+
+\probpts{Extra Credit II}{2}  Assume $\bF(x,y)$ is a conservative vector field defined on a open, connected region $D$.  Fix any point $(a,b)$ in $D$.  Explain why the formula $\ds f(x,y) = \int_{(a,b)}^{(x,y)} \bF\cdot d\br$ defines a \emph{function} on $D$.
+\vspace{2.0in}
+
+%\bigskip
+%\noindent \hrule
+%\begin{center}
+%\small
+%\bigskip
+%\textsc{blank space}
+%\end{center}
+%\vfill
+
+\end{document}
