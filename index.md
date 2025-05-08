@@ -62,6 +62,6 @@ Log in to [canvas.alaska.edu/courses/13188](https://canvas.alaska.edu/courses/13
 [<img src="assets/images/vector-field-sphere.svg" height="230">](https://en.wikipedia.org/wiki/Vector_field "vector field on a sphere") &nbsp; &nbsp; [<img src="assets/images/right-hand-rule.png" height="200">](https://en.wikipedia.org/wiki/Curl_(mathematics) "right-hand-rule for curl") &nbsp; &nbsp; [<img src="assets/images/div-theorem-crop.png" height="200">](https://en.wikipedia.org/wiki/Divergence_theorem "divergence theorem")
 
 ---
-_Site design derived from the [coordinated Calc I website](https://uaf-math251.github.io/), an original [Jekyll](https://jekyllrb.com/) design by [David Maxwell](https://damaxwell.github.io/)._
+_Site design derived from the [coordinated Calc I website](https://uaf-math.github.io/calc1/), an original [Jekyll](https://jekyllrb.com/) design by [David Maxwell](https://damaxwell.github.io/)._
 
 [<img src="assets/images/GitHub-Mark-32px.png" align="right">](https://github.com/bueler/calc3 "github repository for this site")
